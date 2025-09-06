@@ -1,0 +1,22 @@
+# Load RTL files
+read_verilog src/add4.v
+read_verilog src/sub4.v
+read_verilog src/logic4.v
+read_verilog src/alu_mux.v
+read_verilog src/flag_unit.v
+read_verilog src/alu_4bit.v
+
+# Define top module
+hierarchy -top alu_4bit
+
+# Run synthesis
+proc; opt; fsm; opt; memory; opt
+techmap; opt
+
+# Generic synthesis
+synth -top alu_4bit
+
+# Write outputs
+write_verilog -noattr alu_gate.v
+write_json alu_gate.json
+stat

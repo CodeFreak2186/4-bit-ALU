@@ -1,0 +1,1256 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="779"
+   height="423"
+   version="1.1"
+   id="svg111"
+   sodipodi:docname="alu_gate.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:s="https://github.com/nturley/netlistsvg">
+  <defs
+     id="defs111" />
+  <sodipodi:namedview
+     id="namedview111"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <style
+     id="style1">svg {
+    stroke:#000;
+    fill:none;
+  }
+  text {
+    fill:#000;
+    stroke:none;
+    font-size:10px;
+    font-weight: bold;
+    font-family: &quot;Courier New&quot;, monospace;
+  }
+  .nodelabel {
+    text-anchor: middle;
+  }
+  .inputPortLabel {
+    text-anchor: end;
+  }
+  .splitjoinBody {
+    fill:#000;
+  }</style>
+  <g
+     s:type="generic"
+     transform="translate(96,22)"
+     s:width="30"
+     s:height="40"
+     id="cell_u_add">
+    <text
+       x="15"
+       y="-4"
+       class="nodelabel cell_u_add"
+       s:attribute="ref"
+       id="text1">add4</text>
+    <rect
+       width="30"
+       height="60"
+       s:generic="body"
+       class="cell_u_add"
+       id="rect1" />
+    <g
+       transform="translate(0,10)"
+       s:x="0"
+       s:y="10"
+       s:pid="in0"
+       id="port_u_add~A">
+      <text
+         x="-3"
+         y="-4"
+         class="inputPortLabel cell_u_add"
+         id="text2">A</text>
+    </g>
+    <g
+       transform="translate(0,30)"
+       s:x="0"
+       s:y="10"
+       s:pid="in0"
+       id="port_u_add~B">
+      <text
+         x="-3"
+         y="-4"
+         class="inputPortLabel cell_u_add"
+         id="text3">B</text>
+    </g>
+    <g
+       transform="translate(30,10)"
+       s:x="30"
+       s:y="10"
+       s:pid="out0"
+       id="port_u_add~COUT">
+      <text
+         x="5"
+         y="-4"
+         style="fill:#000; stroke:none"
+         class="cell_u_add"
+         id="text4">COUT</text>
+    </g>
+    <g
+       transform="translate(30,30)"
+       s:x="30"
+       s:y="10"
+       s:pid="out0"
+       id="port_u_add~OVF">
+      <text
+         x="5"
+         y="-4"
+         style="fill:#000; stroke:none"
+         class="cell_u_add"
+         id="text5">OVF</text>
+    </g>
+    <g
+       transform="translate(30,50)"
+       s:x="30"
+       s:y="10"
+       s:pid="out0"
+       id="port_u_add~SUM">
+      <text
+         x="5"
+         y="-4"
+         style="fill:#000; stroke:none"
+         class="cell_u_add"
+         id="text6">SUM</text>
+    </g>
+  </g>
+  <g
+     s:type="generic"
+     transform="translate(592,285.5)"
+     s:width="30"
+     s:height="40"
+     id="cell_u_flags">
+    <text
+       x="15"
+       y="-4"
+       class="nodelabel cell_u_flags"
+       s:attribute="ref"
+       id="text7">flag_unit</text>
+    <rect
+       width="30"
+       height="80"
+       s:generic="body"
+       class="cell_u_flags"
+       id="rect7" />
+    <g
+       transform="translate(0,10)"
+       s:x="0"
+       s:y="10"
+       s:pid="in0"
+       id="port_u_flags~Y">
+      <text
+         x="-3"
+         y="-4"
+         class="inputPortLabel cell_u_flags"
+         id="text8">Y</text>
+    </g>
+    <g
+       transform="translate(0,30)"
+       s:x="0"
+       s:y="10"
+       s:pid="in0"
+       id="port_u_flags~arith_carry_borrow">
+      <text
+         x="-3"
+         y="-4"
+         class="inputPortLabel cell_u_flags"
+         id="text9">arith_carry_borrow</text>
+    </g>
+    <g
+       transform="translate(0,50)"
+       s:x="0"
+       s:y="10"
+       s:pid="in0"
+       id="port_u_flags~arith_overflow">
+      <text
+         x="-3"
+         y="-4"
+         class="inputPortLabel cell_u_flags"
+         id="text10">arith_overflow</text>
+    </g>
+    <g
+       transform="translate(0,70)"
+       s:x="0"
+       s:y="10"
+       s:pid="in0"
+       id="port_u_flags~op">
+      <text
+         x="-3"
+         y="-4"
+         class="inputPortLabel cell_u_flags"
+         id="text11">op</text>
+    </g>
+    <g
+       transform="translate(30,10)"
+       s:x="30"
+       s:y="10"
+       s:pid="out0"
+       id="port_u_flags~carry_out">
+      <text
+         x="5"
+         y="-4"
+         style="fill:#000; stroke:none"
+         class="cell_u_flags"
+         id="text12">carry_out</text>
+    </g>
+    <g
+       transform="translate(30,30)"
+       s:x="30"
+       s:y="10"
+       s:pid="out0"
+       id="port_u_flags~overflow">
+      <text
+         x="5"
+         y="-4"
+         style="fill:#000; stroke:none"
+         class="cell_u_flags"
+         id="text13">overflow</text>
+    </g>
+    <g
+       transform="translate(30,50)"
+       s:x="30"
+       s:y="10"
+       s:pid="out0"
+       id="port_u_flags~sign">
+      <text
+         x="5"
+         y="-4"
+         style="fill:#000; stroke:none"
+         class="cell_u_flags"
+         id="text14">sign</text>
+    </g>
+    <g
+       transform="translate(30,70)"
+       s:x="30"
+       s:y="10"
+       s:pid="out0"
+       id="port_u_flags~zero">
+      <text
+         x="5"
+         y="-4"
+         style="fill:#000; stroke:none"
+         class="cell_u_flags"
+         id="text15">zero</text>
+    </g>
+  </g>
+  <g
+     s:type="generic"
+     transform="translate(90,130)"
+     s:width="30"
+     s:height="40"
+     id="cell_u_logic">
+    <text
+       x="15"
+       y="-4"
+       class="nodelabel cell_u_logic"
+       s:attribute="ref"
+       id="text16">logic4</text>
+    <rect
+       width="30"
+       height="60"
+       s:generic="body"
+       class="cell_u_logic"
+       id="rect16" />
+    <g
+       transform="translate(0,10)"
+       s:x="0"
+       s:y="10"
+       s:pid="in0"
+       id="port_u_logic~A">
+      <text
+         x="-3"
+         y="-4"
+         class="inputPortLabel cell_u_logic"
+         id="text17">A</text>
+    </g>
+    <g
+       transform="translate(0,30)"
+       s:x="0"
+       s:y="10"
+       s:pid="in0"
+       id="port_u_logic~B">
+      <text
+         x="-3"
+         y="-4"
+         class="inputPortLabel cell_u_logic"
+         id="text18">B</text>
+    </g>
+    <g
+       transform="translate(30,10)"
+       s:x="30"
+       s:y="10"
+       s:pid="out0"
+       id="port_u_logic~AND_R">
+      <text
+         x="5"
+         y="-4"
+         style="fill:#000; stroke:none"
+         class="cell_u_logic"
+         id="text19">AND_R</text>
+    </g>
+    <g
+       transform="translate(30,30)"
+       s:x="30"
+       s:y="10"
+       s:pid="out0"
+       id="port_u_logic~OR_R">
+      <text
+         x="5"
+         y="-4"
+         style="fill:#000; stroke:none"
+         class="cell_u_logic"
+         id="text20">OR_R</text>
+    </g>
+    <g
+       transform="translate(30,50)"
+       s:x="30"
+       s:y="10"
+       s:pid="out0"
+       id="port_u_logic~XOR_R">
+      <text
+         x="5"
+         y="-4"
+         style="fill:#000; stroke:none"
+         class="cell_u_logic"
+         id="text21">XOR_R</text>
+    </g>
+  </g>
+  <g
+     s:type="generic"
+     transform="translate(303,118)"
+     s:width="30"
+     s:height="40"
+     id="cell_u_mux">
+    <text
+       x="15"
+       y="-4"
+       class="nodelabel cell_u_mux"
+       s:attribute="ref"
+       id="text22">alu_mux</text>
+    <rect
+       width="30"
+       height="200"
+       s:generic="body"
+       class="cell_u_mux"
+       id="rect22" />
+    <g
+       transform="translate(0,10)"
+       s:x="0"
+       s:y="10"
+       s:pid="in0"
+       id="port_u_mux~ADD_COUT">
+      <text
+         x="-3"
+         y="-4"
+         class="inputPortLabel cell_u_mux"
+         id="text23">ADD_COUT</text>
+    </g>
+    <g
+       transform="translate(0,30)"
+       s:x="0"
+       s:y="10"
+       s:pid="in0"
+       id="port_u_mux~ADD_OVF">
+      <text
+         x="-3"
+         y="-4"
+         class="inputPortLabel cell_u_mux"
+         id="text24">ADD_OVF</text>
+    </g>
+    <g
+       transform="translate(0,50)"
+       s:x="0"
+       s:y="10"
+       s:pid="in0"
+       id="port_u_mux~ADD_RES">
+      <text
+         x="-3"
+         y="-4"
+         class="inputPortLabel cell_u_mux"
+         id="text25">ADD_RES</text>
+    </g>
+    <g
+       transform="translate(0,70)"
+       s:x="0"
+       s:y="10"
+       s:pid="in0"
+       id="port_u_mux~AND_R">
+      <text
+         x="-3"
+         y="-4"
+         class="inputPortLabel cell_u_mux"
+         id="text26">AND_R</text>
+    </g>
+    <g
+       transform="translate(0,90)"
+       s:x="0"
+       s:y="10"
+       s:pid="in0"
+       id="port_u_mux~OR_R">
+      <text
+         x="-3"
+         y="-4"
+         class="inputPortLabel cell_u_mux"
+         id="text27">OR_R</text>
+    </g>
+    <g
+       transform="translate(0,110)"
+       s:x="0"
+       s:y="10"
+       s:pid="in0"
+       id="port_u_mux~SUB_BORROW">
+      <text
+         x="-3"
+         y="-4"
+         class="inputPortLabel cell_u_mux"
+         id="text28">SUB_BORROW</text>
+    </g>
+    <g
+       transform="translate(0,130)"
+       s:x="0"
+       s:y="10"
+       s:pid="in0"
+       id="port_u_mux~SUB_OVF">
+      <text
+         x="-3"
+         y="-4"
+         class="inputPortLabel cell_u_mux"
+         id="text29">SUB_OVF</text>
+    </g>
+    <g
+       transform="translate(0,150)"
+       s:x="0"
+       s:y="10"
+       s:pid="in0"
+       id="port_u_mux~SUB_RES">
+      <text
+         x="-3"
+         y="-4"
+         class="inputPortLabel cell_u_mux"
+         id="text30">SUB_RES</text>
+    </g>
+    <g
+       transform="translate(0,170)"
+       s:x="0"
+       s:y="10"
+       s:pid="in0"
+       id="port_u_mux~XOR_R">
+      <text
+         x="-3"
+         y="-4"
+         class="inputPortLabel cell_u_mux"
+         id="text31">XOR_R</text>
+    </g>
+    <g
+       transform="translate(0,190)"
+       s:x="0"
+       s:y="10"
+       s:pid="in0"
+       id="port_u_mux~op">
+      <text
+         x="-3"
+         y="-4"
+         class="inputPortLabel cell_u_mux"
+         id="text32">op</text>
+    </g>
+    <g
+       transform="translate(30,10)"
+       s:x="30"
+       s:y="10"
+       s:pid="out0"
+       id="port_u_mux~Y">
+      <text
+         x="5"
+         y="-4"
+         style="fill:#000; stroke:none"
+         class="cell_u_mux"
+         id="text33">Y</text>
+    </g>
+    <g
+       transform="translate(30,30)"
+       s:x="30"
+       s:y="10"
+       s:pid="out0"
+       id="port_u_mux~arith_carry_borrow">
+      <text
+         x="5"
+         y="-4"
+         style="fill:#000; stroke:none"
+         class="cell_u_mux"
+         id="text34">arith_carry_borrow</text>
+    </g>
+    <g
+       transform="translate(30,50)"
+       s:x="30"
+       s:y="10"
+       s:pid="out0"
+       id="port_u_mux~arith_overflow">
+      <text
+         x="5"
+         y="-4"
+         style="fill:#000; stroke:none"
+         class="cell_u_mux"
+         id="text35">arith_overflow</text>
+    </g>
+  </g>
+  <g
+     s:type="generic"
+     transform="translate(84,238)"
+     s:width="30"
+     s:height="40"
+     id="cell_u_sub">
+    <text
+       x="15"
+       y="-4"
+       class="nodelabel cell_u_sub"
+       s:attribute="ref"
+       id="text36">sub4</text>
+    <rect
+       width="30"
+       height="60"
+       s:generic="body"
+       class="cell_u_sub"
+       id="rect36" />
+    <g
+       transform="translate(0,10)"
+       s:x="0"
+       s:y="10"
+       s:pid="in0"
+       id="port_u_sub~A">
+      <text
+         x="-3"
+         y="-4"
+         class="inputPortLabel cell_u_sub"
+         id="text37">A</text>
+    </g>
+    <g
+       transform="translate(0,30)"
+       s:x="0"
+       s:y="10"
+       s:pid="in0"
+       id="port_u_sub~B">
+      <text
+         x="-3"
+         y="-4"
+         class="inputPortLabel cell_u_sub"
+         id="text38">B</text>
+    </g>
+    <g
+       transform="translate(30,10)"
+       s:x="30"
+       s:y="10"
+       s:pid="out0"
+       id="port_u_sub~BORROW">
+      <text
+         x="5"
+         y="-4"
+         style="fill:#000; stroke:none"
+         class="cell_u_sub"
+         id="text39">BORROW</text>
+    </g>
+    <g
+       transform="translate(30,30)"
+       s:x="30"
+       s:y="10"
+       s:pid="out0"
+       id="port_u_sub~DIFF">
+      <text
+         x="5"
+         y="-4"
+         style="fill:#000; stroke:none"
+         class="cell_u_sub"
+         id="text40">DIFF</text>
+    </g>
+    <g
+       transform="translate(30,50)"
+       s:x="30"
+       s:y="10"
+       s:pid="out0"
+       id="port_u_sub~OVF">
+      <text
+         x="5"
+         y="-4"
+         style="fill:#000; stroke:none"
+         class="cell_u_sub"
+         id="text41">OVF</text>
+    </g>
+  </g>
+  <g
+     s:type="inputExt"
+     transform="translate(12,22.5)"
+     s:width="30"
+     s:height="20"
+     id="cell_A">
+    <text
+       x="15"
+       y="-4"
+       class="nodelabel cell_A"
+       s:attribute="ref"
+       id="text42">A</text>
+    <s:alias
+       val="$_inputExt_" />
+    <path
+       d="M0,0 L0,20 L15,20 L30,10 L15,0 Z"
+       class="cell_A"
+       id="path42" />
+    <g
+       s:x="28"
+       s:y="10"
+       s:pid="Y"
+       id="g42" />
+  </g>
+  <g
+     s:type="inputExt"
+     transform="translate(12,150.5)"
+     s:width="30"
+     s:height="20"
+     id="cell_B">
+    <text
+       x="15"
+       y="-4"
+       class="nodelabel cell_B"
+       s:attribute="ref"
+       id="text43">B</text>
+    <s:alias
+       val="$_inputExt_" />
+    <path
+       d="M0,0 L0,20 L15,20 L30,10 L15,0 Z"
+       class="cell_B"
+       id="path43" />
+    <g
+       s:x="28"
+       s:y="10"
+       s:pid="Y"
+       id="g43" />
+  </g>
+  <g
+     s:type="inputExt"
+     transform="translate(84,346)"
+     s:width="30"
+     s:height="20"
+     id="cell_op">
+    <text
+       x="15"
+       y="-4"
+       class="nodelabel cell_op"
+       s:attribute="ref"
+       id="text44">op</text>
+    <s:alias
+       val="$_inputExt_" />
+    <path
+       d="M0,0 L0,20 L15,20 L30,10 L15,0 Z"
+       class="cell_op"
+       id="path44" />
+    <g
+       s:x="28"
+       s:y="10"
+       s:pid="Y"
+       id="g44" />
+  </g>
+  <g
+     s:type="outputExt"
+     transform="translate(713,118.5)"
+     s:width="30"
+     s:height="20"
+     id="cell_Y">
+    <text
+       x="15"
+       y="-4"
+       class="nodelabel cell_Y"
+       s:attribute="ref"
+       id="text45">Y</text>
+    <s:alias
+       val="$_outputExt_" />
+    <path
+       d="M30,0 L30,20 L15,20 L0,10 L15,0 Z"
+       class="cell_Y"
+       id="path45" />
+    <g
+       s:x="0"
+       s:y="10"
+       s:pid="A"
+       id="g45" />
+  </g>
+  <g
+     s:type="outputExt"
+     transform="translate(713,196)"
+     s:width="30"
+     s:height="20"
+     id="cell_carry_out">
+    <text
+       x="15"
+       y="-4"
+       class="nodelabel cell_carry_out"
+       s:attribute="ref"
+       id="text46">carry_out</text>
+    <s:alias
+       val="$_outputExt_" />
+    <path
+       d="M30,0 L30,20 L15,20 L0,10 L15,0 Z"
+       class="cell_carry_out"
+       id="path46" />
+    <g
+       s:x="0"
+       s:y="10"
+       s:pid="A"
+       id="g46" />
+  </g>
+  <g
+     s:type="outputExt"
+     transform="translate(713,391)"
+     s:width="30"
+     s:height="20"
+     id="cell_zero">
+    <text
+       x="15"
+       y="-4"
+       class="nodelabel cell_zero"
+       s:attribute="ref"
+       id="text47">zero</text>
+    <s:alias
+       val="$_outputExt_" />
+    <path
+       d="M30,0 L30,20 L15,20 L0,10 L15,0 Z"
+       class="cell_zero"
+       id="path47" />
+    <g
+       s:x="0"
+       s:y="10"
+       s:pid="A"
+       id="g47" />
+  </g>
+  <g
+     s:type="outputExt"
+     transform="translate(713,326)"
+     s:width="30"
+     s:height="20"
+     id="cell_sign">
+    <text
+       x="15"
+       y="-4"
+       class="nodelabel cell_sign"
+       s:attribute="ref"
+       id="text48">sign</text>
+    <s:alias
+       val="$_outputExt_" />
+    <path
+       d="M30,0 L30,20 L15,20 L0,10 L15,0 Z"
+       class="cell_sign"
+       id="path48" />
+    <g
+       s:x="0"
+       s:y="10"
+       s:pid="A"
+       id="g48" />
+  </g>
+  <g
+     s:type="outputExt"
+     transform="translate(713,261)"
+     s:width="30"
+     s:height="20"
+     id="cell_overflow">
+    <text
+       x="15"
+       y="-4"
+       class="nodelabel cell_overflow"
+       s:attribute="ref"
+       id="text49">overflow</text>
+    <s:alias
+       val="$_outputExt_" />
+    <path
+       d="M30,0 L30,20 L15,20 L0,10 L15,0 Z"
+       class="cell_overflow"
+       id="path49" />
+    <g
+       s:x="0"
+       s:y="10"
+       s:pid="A"
+       id="g49" />
+  </g>
+  <line
+     x1="40"
+     x2="96"
+     y1="32.5"
+     y2="32.5"
+     class="net_2,3,4,5"
+     id="line49" />
+  <line
+     x1="40"
+     x2="62"
+     y1="32.5"
+     y2="32.5"
+     class="net_2,3,4,5"
+     id="line50" />
+  <line
+     x1="62"
+     x2="62"
+     y1="32.5"
+     y2="140.5"
+     class="net_2,3,4,5"
+     id="line51" />
+  <circle
+     cx="62"
+     cy="32.5"
+     r="2"
+     style="fill:#000"
+     class="net_2,3,4,5"
+     id="circle51" />
+  <circle
+     cx="62"
+     cy="140.5"
+     r="2"
+     style="fill:#000"
+     class="net_2,3,4,5"
+     id="circle52" />
+  <line
+     x1="62"
+     x2="90"
+     y1="140.5"
+     y2="140.5"
+     class="net_2,3,4,5"
+     id="line52" />
+  <line
+     x1="40"
+     x2="62"
+     y1="32.5"
+     y2="32.5"
+     class="net_2,3,4,5"
+     id="line53" />
+  <line
+     x1="62"
+     x2="62"
+     y1="32.5"
+     y2="248.5"
+     class="net_2,3,4,5"
+     id="line54" />
+  <line
+     x1="62"
+     x2="84"
+     y1="248.5"
+     y2="248.5"
+     class="net_2,3,4,5"
+     id="line55" />
+  <line
+     x1="40"
+     x2="52"
+     y1="160.5"
+     y2="160.5"
+     class="net_6,7,8,9"
+     id="line56" />
+  <line
+     x1="52"
+     x2="52"
+     y1="160.5"
+     y2="52.5"
+     class="net_6,7,8,9"
+     id="line57" />
+  <circle
+     cx="52"
+     cy="160.5"
+     r="2"
+     style="fill:#000"
+     class="net_6,7,8,9"
+     id="circle57" />
+  <line
+     x1="52"
+     x2="96"
+     y1="52.5"
+     y2="52.5"
+     class="net_6,7,8,9"
+     id="line58" />
+  <line
+     x1="40"
+     x2="90"
+     y1="160.5"
+     y2="160.5"
+     class="net_6,7,8,9"
+     id="line59" />
+  <line
+     x1="40"
+     x2="52"
+     y1="160.5"
+     y2="160.5"
+     class="net_6,7,8,9"
+     id="line60" />
+  <line
+     x1="52"
+     x2="52"
+     y1="160.5"
+     y2="268.5"
+     class="net_6,7,8,9"
+     id="line61" />
+  <line
+     x1="52"
+     x2="84"
+     y1="268.5"
+     y2="268.5"
+     class="net_6,7,8,9"
+     id="line62" />
+  <line
+     x1="334"
+     x2="473"
+     y1="128.5"
+     y2="128.5"
+     class="net_13,14,15,16"
+     id="line63" />
+  <line
+     x1="473"
+     x2="473"
+     y1="128.5"
+     y2="296"
+     class="net_13,14,15,16"
+     id="line64" />
+  <circle
+     cx="473"
+     cy="128.5"
+     r="2"
+     style="fill:#000"
+     class="net_13,14,15,16"
+     id="circle64" />
+  <line
+     x1="473"
+     x2="592"
+     y1="296"
+     y2="296"
+     class="net_13,14,15,16"
+     id="line65" />
+  <line
+     x1="334"
+     x2="713"
+     y1="128.5"
+     y2="128.5"
+     class="net_13,14,15,16"
+     id="line66" />
+  <line
+     x1="334"
+     x2="463"
+     y1="148.5"
+     y2="148.5"
+     class="net_27"
+     id="line67" />
+  <line
+     x1="463"
+     x2="463"
+     y1="148.5"
+     y2="316"
+     class="net_27"
+     id="line68" />
+  <line
+     x1="463"
+     x2="592"
+     y1="316"
+     y2="316"
+     class="net_27"
+     id="line69" />
+  <line
+     x1="334"
+     x2="453"
+     y1="168.5"
+     y2="168.5"
+     class="net_28"
+     id="line70" />
+  <line
+     x1="453"
+     x2="453"
+     y1="168.5"
+     y2="336"
+     class="net_28"
+     id="line71" />
+  <line
+     x1="453"
+     x2="592"
+     y1="336"
+     y2="336"
+     class="net_28"
+     id="line72" />
+  <line
+     x1="112"
+     x2="592"
+     y1="356"
+     y2="356"
+     class="net_10,11,12"
+     id="line73" />
+  <line
+     x1="112"
+     x2="162"
+     y1="356"
+     y2="356"
+     class="net_10,11,12"
+     id="line74" />
+  <line
+     x1="162"
+     x2="162"
+     y1="356"
+     y2="308.5"
+     class="net_10,11,12"
+     id="line75" />
+  <circle
+     cx="162"
+     cy="356"
+     r="2"
+     style="fill:#000"
+     class="net_10,11,12"
+     id="circle75" />
+  <line
+     x1="162"
+     x2="303"
+     y1="308.5"
+     y2="308.5"
+     class="net_10,11,12"
+     id="line76" />
+  <line
+     x1="127"
+     x2="232"
+     y1="32.5"
+     y2="32.5"
+     class="net_21"
+     id="line77" />
+  <line
+     x1="232"
+     x2="232"
+     y1="32.5"
+     y2="128.5"
+     class="net_21"
+     id="line78" />
+  <line
+     x1="232"
+     x2="303"
+     y1="128.5"
+     y2="128.5"
+     class="net_21"
+     id="line79" />
+  <line
+     x1="127"
+     x2="222"
+     y1="52.5"
+     y2="52.5"
+     class="net_22"
+     id="line80" />
+  <line
+     x1="222"
+     x2="222"
+     y1="52.5"
+     y2="148.5"
+     class="net_22"
+     id="line81" />
+  <line
+     x1="222"
+     x2="303"
+     y1="148.5"
+     y2="148.5"
+     class="net_22"
+     id="line82" />
+  <line
+     x1="127"
+     x2="212"
+     y1="72.5"
+     y2="72.5"
+     class="net_23,24,25,26"
+     id="line83" />
+  <line
+     x1="212"
+     x2="212"
+     y1="72.5"
+     y2="168.5"
+     class="net_23,24,25,26"
+     id="line84" />
+  <line
+     x1="212"
+     x2="303"
+     y1="168.5"
+     y2="168.5"
+     class="net_23,24,25,26"
+     id="line85" />
+  <line
+     x1="121"
+     x2="202"
+     y1="140.5"
+     y2="140.5"
+     class="net_29,30,31,32"
+     id="line86" />
+  <line
+     x1="202"
+     x2="202"
+     y1="140.5"
+     y2="188.5"
+     class="net_29,30,31,32"
+     id="line87" />
+  <line
+     x1="202"
+     x2="303"
+     y1="188.5"
+     y2="188.5"
+     class="net_29,30,31,32"
+     id="line88" />
+  <line
+     x1="121"
+     x2="192"
+     y1="160.5"
+     y2="160.5"
+     class="net_33,34,35,36"
+     id="line89" />
+  <line
+     x1="192"
+     x2="192"
+     y1="160.5"
+     y2="208.5"
+     class="net_33,34,35,36"
+     id="line90" />
+  <line
+     x1="192"
+     x2="303"
+     y1="208.5"
+     y2="208.5"
+     class="net_33,34,35,36"
+     id="line91" />
+  <line
+     x1="115"
+     x2="162"
+     y1="248.5"
+     y2="248.5"
+     class="net_41"
+     id="line92" />
+  <line
+     x1="162"
+     x2="162"
+     y1="248.5"
+     y2="228.5"
+     class="net_41"
+     id="line93" />
+  <line
+     x1="162"
+     x2="303"
+     y1="228.5"
+     y2="228.5"
+     class="net_41"
+     id="line94" />
+  <line
+     x1="115"
+     x2="172"
+     y1="288.5"
+     y2="288.5"
+     class="net_42"
+     id="line95" />
+  <line
+     x1="172"
+     x2="172"
+     y1="288.5"
+     y2="248.5"
+     class="net_42"
+     id="line96" />
+  <line
+     x1="172"
+     x2="303"
+     y1="248.5"
+     y2="248.5"
+     class="net_42"
+     id="line97" />
+  <line
+     x1="115"
+     x2="303"
+     y1="268.5"
+     y2="268.5"
+     class="net_43,44,45,46"
+     id="line98" />
+  <line
+     x1="121"
+     x2="182"
+     y1="180.5"
+     y2="180.5"
+     class="net_37,38,39,40"
+     id="line99" />
+  <line
+     x1="182"
+     x2="182"
+     y1="180.5"
+     y2="288.5"
+     class="net_37,38,39,40"
+     id="line100" />
+  <line
+     x1="182"
+     x2="303"
+     y1="288.5"
+     y2="288.5"
+     class="net_37,38,39,40"
+     id="line101" />
+  <line
+     x1="623"
+     x2="688"
+     y1="296"
+     y2="296"
+     class="net_17"
+     id="line102" />
+  <line
+     x1="688"
+     x2="688"
+     y1="296"
+     y2="206"
+     class="net_17"
+     id="line103" />
+  <line
+     x1="688"
+     x2="713"
+     y1="206"
+     y2="206"
+     class="net_17"
+     id="line104" />
+  <line
+     x1="623"
+     x2="688"
+     y1="356"
+     y2="356"
+     class="net_18"
+     id="line105" />
+  <line
+     x1="688"
+     x2="688"
+     y1="356"
+     y2="401"
+     class="net_18"
+     id="line106" />
+  <line
+     x1="688"
+     x2="713"
+     y1="401"
+     y2="401"
+     class="net_18"
+     id="line107" />
+  <line
+     x1="623"
+     x2="713"
+     y1="336"
+     y2="336"
+     class="net_19"
+     id="line108" />
+  <line
+     x1="623"
+     x2="698"
+     y1="316"
+     y2="316"
+     class="net_20"
+     id="line109" />
+  <line
+     x1="698"
+     x2="698"
+     y1="316"
+     y2="271"
+     class="net_20"
+     id="line110" />
+  <line
+     x1="698"
+     x2="713"
+     y1="271"
+     y2="271"
+     class="net_20"
+     id="line111" />
+</svg>
